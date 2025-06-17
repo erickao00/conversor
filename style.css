@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'roboto', sans-serif;
+    outline: none;
+}
+
+.maozinha {
+    width: 300px;
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 375px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #555555;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 355px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #555555;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #772FD3;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+button :hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+body {
+    background: #8A51FC;
+
+}
+
+.nota {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+option {
+    width: 327px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+section {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #772FD3;
+}
+
+.seta-img {
+    margin: 15px 0;
+}
+
+.div-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.valor {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.valor-moeda .moeda-valor-converter {
+    font-size: 20px;
+    font-weight: 700;
+    color: #555555;
+}
